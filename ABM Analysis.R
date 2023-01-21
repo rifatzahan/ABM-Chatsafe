@@ -2,8 +2,6 @@ library(foreign)
 library(ggplot2)
 library(hrbrthemes)
 
-# 5000 population
-
 EffectsAxBData <- read.csv("EffectsAxBData.csv", header = T)
 
 pAxB <- ggplot(EffectsAxBData, aes(x = `Chatsafe.SC.reduction`, 
@@ -25,28 +23,6 @@ pAxB <- ggplot(EffectsAxBData, aes(x = `Chatsafe.SC.reduction`,
 
 pAxB
 
-# 1000 populations
-
-EffectsAxBxDData <- read.csv("EffectsAxBxDData.csv", header = T)
-
-pAxBxD <- ggplot(EffectsAxBxDData, aes(x = `Chatsafe.SC.reduction`, 
-                                   y = `Fraction.of.deaths.reduced.from.Baseline`, 
-                                   colour = factor(`Influenced.by.Chatsafe`),
-                                   group = factor(`Influenced.by.Chatsafe`)
-)
-) + 
-  geom_line() + 
-  geom_point() + 
-  facet_wrap(~ EffectsAxBxDData$Scaling.Coefficient, ncol = 2) +
-  theme_bw() +
-  labs(title="",
-       x ="Reduction in Scaling coefficient of probability of re-sharing attempt news due to #chatsafe", 
-       y = "Fraction reduction in the # of deaths from Baseline (no #Chatsafe)"
-  ) +
-  labs(color='') 
-
-
-pAxBxD
 
 
 
@@ -70,6 +46,28 @@ pAxBxC <- ggplot(EffectsAxBxCData, aes(x = `Chatsafe.SC.reduction`,
 
 
 pAxBxC
+
+EffectsAxBxDData <- read.csv("EffectsAxBxDData.csv", header = T)
+
+
+pAxBxD <- ggplot(EffectsAxBxDData, aes(x = `Chatsafe.SC.reduction`, 
+                                       y = `Fraction.of.deaths.reduced.from.Baseline`, 
+                                       colour = factor(`Influenced.by.Chatsafe`),
+                                       group = factor(`Influenced.by.Chatsafe`)
+)
+) + 
+  geom_line() + 
+  geom_point() + 
+  facet_wrap(~ EffectsAxBxDData$Scaling.Coefficient, ncol = 2) +
+  theme_bw() +
+  labs(title="",
+       x ="Reduction in Scaling coefficient of probability of re-sharing attempt news due to #chatsafe", 
+       y = "Fraction reduction in the # of deaths from Baseline (no #Chatsafe)"
+  ) +
+  labs(color='') 
+
+
+pAxBxD
 
 
 
