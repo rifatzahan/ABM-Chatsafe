@@ -6634,7 +6634,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[fractionInitiallyInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[0.5]]></Code>
+						<Code><![CDATA[1.0]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -6643,7 +6643,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[scalingCoefficientOfEscalatingSuicidalBehaviourOnAttemptsEventNewsWhenInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[1.0 - 0.4]]></Code>
+						<Code><![CDATA[1.0 - 0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -6672,12 +6672,12 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectDHelpfulMsgsLeadToReducingSuicidalIdeationEnabled]]></ParameterName>
-					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[true]]></Code>
-					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectEDistressMsgsLeadsToReceivingHelpfulMsgEnabled]]></ParameterName>
+					<ParameterValue Class="CodeValue">
+						<Code><![CDATA[true]]></Code>
+					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[probabilityOfSendingHelpfulMsgsFollowingExposureToDistressMsg]]></ParameterName>
@@ -6799,7 +6799,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[fractionInitiallyInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[0.5]]></Code>
+						<Code><![CDATA[1.0]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -6808,7 +6808,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[scalingCoefficientOfEscalatingSuicidalBehaviourOnAttemptsEventNewsWhenInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[1.0 - 0.4]]></Code>
+						<Code><![CDATA[1.0 - 0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -6837,12 +6837,12 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectDHelpfulMsgsLeadToReducingSuicidalIdeationEnabled]]></ParameterName>
-					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[true]]></Code>
-					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectEDistressMsgsLeadsToReceivingHelpfulMsgEnabled]]></ParameterName>
+					<ParameterValue Class="CodeValue">
+						<Code><![CDATA[true]]></Code>
+					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[probabilityOfSendingHelpfulMsgsFollowingExposureToDistressMsg]]></ParameterName>
@@ -7267,7 +7267,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[fractionInitiallyInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[0.5]]></Code>
+						<Code><![CDATA[1.0]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -7276,7 +7276,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[scalingCoefficientOfEscalatingSuicidalBehaviourOnAttemptsEventNewsWhenInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[1.0 - 0.4]]></Code>
+						<Code><![CDATA[1.0 - 0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -7305,12 +7305,12 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectDHelpfulMsgsLeadToReducingSuicidalIdeationEnabled]]></ParameterName>
-					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[true]]></Code>
-					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectEDistressMsgsLeadsToReceivingHelpfulMsgEnabled]]></ParameterName>
+					<ParameterValue Class="CodeValue">
+						<Code><![CDATA[true]]></Code>
+					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[probabilityOfSendingHelpfulMsgsFollowingExposureToDistressMsg]]></ParameterName>
@@ -7432,7 +7432,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[fractionInitiallyInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[0.5]]></Code>
+						<Code><![CDATA[1.0]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -7441,7 +7441,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[scalingCoefficientOfEscalatingSuicidalBehaviourOnAttemptsEventNewsWhenInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[1.0 - 0.4]]></Code>
+						<Code><![CDATA[1.0 - 0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -7470,12 +7470,12 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectDHelpfulMsgsLeadToReducingSuicidalIdeationEnabled]]></ParameterName>
-					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[true]]></Code>
-					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectEDistressMsgsLeadsToReceivingHelpfulMsgEnabled]]></ParameterName>
+					<ParameterValue Class="CodeValue">
+						<Code><![CDATA[true]]></Code>
+					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[probabilityOfSendingHelpfulMsgsFollowingExposureToDistressMsg]]></ParameterName>
@@ -8875,7 +8875,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[fractionInitiallyInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[0.5]]></Code>
+						<Code><![CDATA[0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -8884,7 +8884,7 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				<Parameter>
 					<ParameterName><![CDATA[scalingCoefficientOfEscalatingSuicidalBehaviourOnAttemptsEventNewsWhenInfluencedByChatsafe]]></ParameterName>
 					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[1.0 - 0.4]]></Code>
+						<Code><![CDATA[1.0 - 0.6]]></Code>
 					</ParameterValue>
 				</Parameter>
 				<Parameter>
@@ -8913,12 +8913,12 @@ else if(!allObservedHelpfulMessageDictionary.containsKey(attemptID) &&
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectDHelpfulMsgsLeadToReducingSuicidalIdeationEnabled]]></ParameterName>
-					<ParameterValue Class="CodeValue">
-						<Code><![CDATA[true]]></Code>
-					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[isEffectEDistressMsgsLeadsToReceivingHelpfulMsgEnabled]]></ParameterName>
+					<ParameterValue Class="CodeValue">
+						<Code><![CDATA[true]]></Code>
+					</ParameterValue>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[probabilityOfSendingHelpfulMsgsFollowingExposureToDistressMsg]]></ParameterName>
@@ -8985,7 +8985,7 @@ traceln("Experiment finished.");]]></Code>
 		<CustomExperiment>
 			<Id>1670909033571</Id>
 			<Name><![CDATA[No_GUI_BaselineWithChatsafe]]></Name>
-			<MaximumMemory>16384</MaximumMemory>
+			<MaximumMemory>150000</MaximumMemory>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<VmArgs><![CDATA[-XX:+UseParallelGC]]></VmArgs>
 			<Import><![CDATA[import java.time.Instant;
@@ -9025,7 +9025,7 @@ traceln("Experiment finished.");]]></Code>
 		<CustomExperiment>
 			<Id>1670909492258</Id>
 			<Name><![CDATA[No_GUI_PercentReductionInChatsafeEffectMultiplierBy100]]></Name>
-			<MaximumMemory>16384</MaximumMemory>
+			<MaximumMemory>150000</MaximumMemory>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<VmArgs><![CDATA[-XX:+UseParallelGC]]></VmArgs>
 			<Import><![CDATA[import java.time.Instant;
@@ -9065,7 +9065,7 @@ traceln("Experiment finished.");]]></Code>
 		<CustomExperiment>
 			<Id>1670909515459</Id>
 			<Name><![CDATA[No_GUI_PercentReductionInChatsafeEffectMultiplierBy20]]></Name>
-			<MaximumMemory>16384</MaximumMemory>
+			<MaximumMemory>150000</MaximumMemory>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<VmArgs><![CDATA[-XX:+UseParallelGC]]></VmArgs>
 			<Import><![CDATA[import java.time.Instant;
@@ -9105,7 +9105,7 @@ traceln("Experiment finished.");]]></Code>
 		<CustomExperiment>
 			<Id>1670909543228</Id>
 			<Name><![CDATA[No_GUI_PercentReductionInChatsafeEffectMultiplierBy40]]></Name>
-			<MaximumMemory>16384</MaximumMemory>
+			<MaximumMemory>150000</MaximumMemory>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<VmArgs><![CDATA[-XX:+UseParallelGC]]></VmArgs>
 			<Import><![CDATA[import java.time.Instant;
@@ -9145,7 +9145,7 @@ traceln("Experiment finished.");]]></Code>
 		<CustomExperiment>
 			<Id>1670909569713</Id>
 			<Name><![CDATA[No_GUI_PercentReductionInChatsafeEffectMultiplierBy80]]></Name>
-			<MaximumMemory>16384</MaximumMemory>
+			<MaximumMemory>150000</MaximumMemory>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<VmArgs><![CDATA[-XX:+UseParallelGC]]></VmArgs>
 			<Import><![CDATA[import java.time.Instant;
