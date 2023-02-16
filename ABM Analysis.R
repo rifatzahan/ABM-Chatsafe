@@ -92,3 +92,28 @@ pAxBxE <- ggplot(EffectsAxBxEData, aes(x = `Chatsafe.SC.reduction`,
 
 pAxBxE
 
+df <- as.data.frame(rbind(EffectsAxBData, EffectsAxBxCData, EffectsAxBxDData, EffectsAxBxEData))
+# colnames(df)[1] <- "new_col"
+
+
+p <- ggplot(df, aes(x = `Chatsafe.SC.reduction`, 
+                    y = `Fraction.of.deaths.reduced.from.Baseline`, 
+                    colour = factor(`Influenced.by.Chatsafe`),
+                    group = factor(`Influenced.by.Chatsafe`)
+)
+) + 
+  geom_line() + 
+  geom_point() + 
+  facet_grid(df$Effects ~ df$Scaling.Coefficient, scales = "free_x") +
+  theme(strip.placement = "outside", 
+        strip.text = element_text(size = 10),
+        axis.text = element_text(size = 10, angle = 30),
+        axis.title = element_text(size = 10)
+        ) +
+  labs(title="",
+       x ="Reduction in Scaling coefficient of probability of re-sharing attempt news due to #chatsafe", 
+       y = "Fraction reduction in the # of deaths from Baseline (no #Chatsafe)"
+  ) +
+  labs(color='') 
+
+p
